@@ -1,0 +1,62 @@
+---
+title: "Risk Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    theme: united
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+First
+===================================== 
+
+Column {.tabset}
+-----------------------------------------------------------------------
+
+### Information
+
+blabal
+
+
+### Risk Analysis Italy Fixed Income
+
+
+Row
+-------------------------------------
+    
+### Chart 1
+    
+```{r}
+plot(pressure)
+
+```
+   
+Row
+-------------------------------------
+    
+### Chart 2
+    
+```{r}
+plot(pressure)
+
+```
+    
+### Chart 3
+
+```{r}
+plot(pressure)
+
+```
+
+
+
+Second
+===================================== 
+
+```{r}
+plot(pressure)
+```
