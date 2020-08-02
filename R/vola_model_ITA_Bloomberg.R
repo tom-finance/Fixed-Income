@@ -58,7 +58,6 @@ data_yield_ret <- sapply(data, calc_yield_vola)
 
 ################################################################################
 
-
 garch_fit <- function(x) {
   
   spec <- ugarchspec(variance.model = list(model = 'sGARCH', garchOrder = c(1, 1)), distribution = 'std')
